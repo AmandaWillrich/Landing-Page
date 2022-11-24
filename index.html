@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close Menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#">Logo</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#top3">top 3</a></li>
+                    <li><a href="#top3-2">description</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="intro" class="intro main-bg section-screen">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Amanda is learning html and css</h2>
+                <p>We are proud to present Amanda's first landing page (with the help of a teacher, but I suppose it
+                    still
+                    counts). In this version, Amanda is trying to keep up with everything that was shown, even though
+                    everyhing is pretty new to her. I hope she keeps up the good work. Cheers!</p>
+            </div>
+            <div class="intro-img">
+                <img src="/assets/images/html-css-js.svg" alt="Logo de HTML, CSS e JS.">
+            </div>
+        </div>
+    </section>
+
+    <section id="top3" class="white-bg section-screen">
+        <div class="main-content top3-content">
+            <h2>TOP 3 JOBS</h2>
+            <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and
+                some surprises at the machine's performance. This post details some background information on the
+                experience of porting Firefox to run natively on these CPUs.
+
+            <p>We'll start with some background on the Mac transition and give an overview of Firefox internals that
+                needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+
+            <p>We'll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur,
+                and discuss various updater problems we had to deal with. We'll conclude with the release and an
+                overview of various other improvements that are in the pipeline.</p>
+        </div>
+    </section>
+
+    <section id="top3-2" class="grid-three-columns intro main-bg section-screen">
+        <div class="main-content top3-2-content">
+            <h2 class="grid-main-heading">Top 3 JOBS</h2>
+            <p class="grid-description">Here is some recent work:</p>
+            <div class="grid">
+                <article>
+                    <h3>A good one</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consectetur labore praesentium
+                        dicta
+                        veritatis quibusdam neque, exercitationem perspiciatis ad debitis vero cupiditate, ipsa
+                        recusandae
+                        dolorum. Totam accusamus impedit quaerat ratione.</p>
+                </article>
+                <article>
+                    <h3>A good one</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consectetur labore praesentium
+                        dicta
+                        veritatis quibusdam neque, exercitationem perspiciatis ad debitis vero cupiditate, ipsa
+                        recusandae
+                        dolorum. Totam accusamus impedit quaerat ratione.</p>
+                </article>
+                <article>
+                    <h3>A good one</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consectetur labore praesentium
+                        dicta
+                        veritatis quibusdam neque, exercitationem perspiciatis ad debitis vero cupiditate, ipsa
+                        recusandae
+                        dolorum. Totam accusamus impedit quaerat ratione.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-three-columns intro white-bg section-screen">
+        <div class="main-content top3-2-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">A few pictures:</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?1"
+                        alt="Imagem aleatória gerada pelo website unsplash.">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?2"
+                        alt="Imagem aleatória gerada pelo website unsplash.">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?3"
+                        alt="Imagem aleatória gerada pelo website unsplash.">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?4"
+                        alt="Imagem aleatória gerada pelo website unsplash.">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?5"
+                        alt="Imagem aleatória gerada pelo website unsplash.">
+                </div>
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?6"
+                        alt="Imagem aleatória gerada pelo website unsplash.">
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="intro main-bg section-screen">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Contact us</h2>
+                <p>By leaving us a message, you help us improve our services to provide only the best for our costumers.
+                    Our team will reply as soon as possible.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="/assets/images/contact-us.svg" alt="Mulher encaminhando e-mail.">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Please, fill the form:</legend>
+                    <div class="form-group full-width">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your Last Name">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="e-mail">E-mail</label>
+                        <input type="text" name="e-mail" id="e-mail" placeholder="Your best e-mail">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Leave us a message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <footer class="white-bg">
+        <p><a rel="nofollow" target="_blank" href="https://github.com/amandawillrich">
+            Feito com ❤ por Amanda Willrich</p>
+        </a>
+    </footer>
+    <a class="back-to-top" href="#">➤</a>
+
+</body>
+
+</html>
